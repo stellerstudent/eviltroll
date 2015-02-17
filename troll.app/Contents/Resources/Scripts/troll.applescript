@@ -58,7 +58,7 @@ end toggledock
 
 
 on trollbg()
-	quitall
+	quitall({"troll"})
 	screenshot
 	toggledock
 	setbg
